@@ -3,10 +3,7 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import ProfileIcon from "../img/dataimg/ft3.jpeg";
 import "../css/Profile.modules.css";
 import { useNavigate } from "react-router-dom";
-import { useQuery, useMutation } from 'react-query';
-import { API } from '../config/api';
 import {UserContext} from '../context/userContext';
-import { useEffect } from "react";
 import {
   FaEnvelope,
   FaFemale,

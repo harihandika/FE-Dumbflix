@@ -12,7 +12,6 @@ import AddFilm from "./pages/AddFilm";
 import Layout from "./widgets/Layout";
 import HomeAdmin from "./pages/HomeAdmin";
 import Detailadmin from "./components/admin/DetailFilmsadmin";
-import PrivateRoute from "./components/PrivateRoute";
 import Payment from "./pages/Payment";
 import NotFound from "./pages/NotFound";
 import { API, setAuthToken } from './config/api';
