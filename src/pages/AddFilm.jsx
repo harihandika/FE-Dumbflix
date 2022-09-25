@@ -91,7 +91,7 @@ const AddFilm = () => {
   
         // Insert film data
         const response = await API.post("/film", formData, config);
-        console.log("ini formdata",formData);
+        console.log("ini formdata",response);
   
         navigate("/homeadmin");
       } catch (error) {
