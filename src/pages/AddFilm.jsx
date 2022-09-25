@@ -137,7 +137,7 @@ const AddFilm = () => {
           className="d-flex justify-content-center"
         >
           <div className="row g-2 d-flex justify-content-center">
-            <div style={{ width: "69vw", marginLeft: "30px" }}>
+            <div style={{ width: "70vw", marginLeft: "30px" }}>
               <div className="form-floating">
                 <Form.Group className="mt-3 me-3">
                   <Form.Control
