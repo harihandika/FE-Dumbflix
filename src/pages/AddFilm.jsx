@@ -80,8 +80,8 @@ const AddFilm = () => {
         formData.set("title", form.title);
         formData.set(
           "image",
-          form.thumbnailFilm[0],
-          form.thumbnailFilm[0].name
+          form?.thumbnailFilm[0],
+          form?.thumbnailFilm[0].name
         );
         formData.set("year", form.year);
         formData.set("desc", form.desc);
