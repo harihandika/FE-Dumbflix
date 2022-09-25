@@ -37,7 +37,7 @@ const AddFilm = () => {
     thumbnailFilm: "",
     year: "",
     desc: "",
-    categoryId: 0,
+    categoryId: "",
     link:"",
   });
 
