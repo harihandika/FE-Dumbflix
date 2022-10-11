@@ -89,7 +89,7 @@ const AddFilm = () => {
       const response = await API.post("/film", formData, config);
       console.log("ini formdata", response);
 
-      // navigate("/homeadmin");
+      navigate("/homeadmin");
     } catch (error) {
       console.log(error);
     }
